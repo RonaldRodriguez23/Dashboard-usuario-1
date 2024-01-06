@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #030303;
+}
+/* Estilos para contenedor de login*/
+.container{
+    background: rgba(255, 255, 255, 0.2); /* Fondo blanco con opacidad */
+    backdrop-filter: blur(5px); /* Aplicar un desenfoque*/
+    width: 50%;
+    height: 350px;
+    border-radius: 10px;
+    max-width: 50%;
+    margin: 10% 25%;
+    position: fixed;
+
+}
+/* Estilos para imgen de fondo */
+.img{
+    align-items: center;
+    max-width: 100%;
+    position: fixed;
+
+}
+/* Estilos para My account */
+.container h1{
+    color: aliceblue;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center;
+}
+
+
+/* Estilos para los inputs */
+.formulario_login input {
+    margin: 2% 25% ;
+    width: 50%;
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón */
+.formulario_login button {
+    background-color: #2e067b;
+    color: white;
+    margin: 5% 25% ;
+    width: 50%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón al pasar el mouse sobre él */
+.formulario_login button:hover {
+    background-color:#9266e2 ;
+}
+/* Estilo para ela foto de perfil */
+.contenedor_login img{
+    border-radius: 90%;
+    z-index: 1;
+    width: 20%;
+    margin-left: 40%;
+    position: relative;
+    margin-top: -30px;
+}
+
+/* Estilo texto registrese */
+.pag-reg a{
+    width: 80px;
+    margin-left: 45%;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    
+}
+
+footer{
+    color: black;
+    z-index: 100;
+}
+
+/* Estilos para My account */
+.container h1{
+    color: aliceblue;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center;
+}
+
+
+
+/* pagina registro*/
+/* Estilos para los inputs */
+.formulario_register input {
+    margin: 1% 25% ;
+    width: 50%;
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón */
+.formulario_register button {
+    background-color: #2e067b;
+    color: white;
+    margin: 5% 25% ;
+    width: 50%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/* Estilo para el botón al pasar el mouse sobre él */
+.formulario_register button:hover {
+    background-color:#9266e2 ;
+}
+/* Estilo para ela foto de perfil */
+.contenedor_login img{
+    border-radius: 90%;
+    z-index: 1;
+    width: 20%;
+    margin-left: 40%;
+    position: relative;
+    margin-top: -30px;
+}

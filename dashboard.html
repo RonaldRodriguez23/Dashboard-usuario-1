@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="grid-container">
+    <!-- Codigo Header -->
+    <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+        <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+        <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+        <span class="material-icons-outlined">email</span>
+        <span class="material-icons-outlined">account_circle</span>
+        </div>
+    </header>
+    <!-- Sidebar lateral -->
+    <aside id="sidebar">
+        <div class="sidebar-title">
+        <div class="sidebar-brand">
+            <span class="material-symbols-outlined">school</span> Lenguas
+        </div>
+        <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+        <ul class="sidebar-list">
+        <li class="sidebar-list-item">
+            <a href="dashboard.html" target="_blank">
+            <span class="material-icons-outlined">dashboard</span> Dashboard
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+            <span class="material-icons-outlined">inventory_2</span> Productos
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="dashboard.html" target="_blank">
+                <span class="material-symbols-outlined">menu_book</span> Clases
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-symbols-outlined">quiz</span> Exámenes
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-symbols-outlined">sync_saved_locally</span> Tareas
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-symbols-outlined">lightbulb</span> Consejos
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+            <span class="material-icons-outlined">settings</span> Configuración
+            </a>
+        </li>
+        </ul>
+    </aside>
+    <!-- Main -->
+    <main class="main-container">
+        <div class="main-title">
+        <p class="font-weight-bold">Panel</p>
+        </div>
+        <div class="main-cards">
+        <div class="card">
+            <div class="card-inner">
+            <p class="text-primary">Lecciones</p>
+            <span class="material-symbols-outlined text-i">menu_book</span>
+            </div>
+            <span class="text-primary font-weight-bold">5</span>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+            <p class="text-primary">Exámenes</p>
+            <span class="material-symbols-outlined text-i">quiz</span>
+            </div>
+            <span class="text-primary font-weight-bold">2</span>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+            <p class="text-primary">Tareas</p>
+            <span class="material-symbols-outlined text-i">sync_saved_locally</span>
+            </div>
+            <span class="text-primary font-weight-bold">79</span>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+            <p class="text-primary">Notificaciones</p>
+            <span class="material-icons-outlined text-i">notification_important</span>
+            </div>
+            <span class="text-primary font-weight-bold">56</span>
+        </div>
+        </div>
+        <div class="charts">
+        <div class="charts-card">
+            <p class="chart-title">Nivel Por Area</p>
+            <div id="bar-chart"></div>
+        </div>
+        <div class="charts-card">
+            <p class="chart-title">Progreso </p>
+            <div id="area-chart"></div>
+        </div>
+        </div>
+    </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

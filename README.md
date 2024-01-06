@@ -1,4 +1,5 @@
 ![Sin título3](https://github.com/RonaldRodriguez23/Dashboard-usuario-1/assets/120991795/7498757f-b638-418d-bf36-43ba7d664562)
+![Sin título34](https://github.com/RonaldRodriguez23/Dashboard-usuario-1/assets/120991795/070d4da3-daac-42a7-a4d7-65602dfb162e)
 
 ---
 # Sistema de Registro e Inicio de Sesión con PHP
